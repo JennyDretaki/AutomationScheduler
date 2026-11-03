@@ -1,0 +1,28 @@
+{
+    "create_url":  "https://www1.gsis.gr/sgsisapps/eparavolo/public/create.htm?langId=1",
+    "paravolo_code":  "1375",
+    "email":  "dep_klironomikes@charaktiniotis.gr",
+    "pdf_folder":  "C:\\test",
+    "pdf_name":  "eparavolo.pdf",
+    "parallel":  1,
+    "copy_to_share":  false,
+    "work_folder":  "C:\\test\\work",
+    "extractor":  {
+                      "enabled":  true,
+                      "exe":  "YOUR_EXTRACTOR_EXE",
+                      "workdir":  "YOUR_EXTRACTOR_WORKDIR"
+                  },
+    "sql":  {
+                "driver":  "SQL Server Native Client 11.0",
+                "server":  "YOUR_SQL_SERVER",
+                "database":  "YOUR_DATABASE",
+                "timeout":  30
+            },
+    "mqtt":  {
+                 "enabled":  true,
+                 "host":  "YOUR_MQTT_HOST",
+                 "port":  1883,
+                 "topic_total":  "{company}/agores",
+                 "topic_updated":  "{company}/agores/UPDATED"
+             }
+}

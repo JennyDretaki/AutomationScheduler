@@ -1,0 +1,50 @@
+# Python / runtime (μεγάλα — μένουν τοπικά στο P:\ ή UNC)
+python/.venv/
+python/runtime/
+python/ms-playwright/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Browser / work / logs
+**/chrome-profile/
+**/chrome-profile-*/
+**/chrome-runs/
+**/work/
+**/logs/
+**/Logs/
+
+# Publish binaries (κρατάμε appsettings + start bat)
+publish/*.dll
+publish/*.exe
+publish/*.pdb
+publish/*.new.dll
+publish/runtimes/
+publish/cs/
+publish/de/
+publish/es/
+publish/fr/
+publish/it/
+publish/ja/
+publish/ko/
+publish/pl/
+publish/pt-BR/
+publish/ru/
+publish/tr/
+publish/zh-Hans/
+publish/zh-Hant/
+publish/Logs/
+publish/createdump.exe
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+.idea/
+*.user
+
+# Secrets
+.env
+.env.*
+**/config.local.json

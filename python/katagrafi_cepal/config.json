@@ -1,0 +1,27 @@
+{
+    "login_url":  "https://cepal.fragma.aiflows.app/login/",
+    "email":  "ealexiou@charaktiniotis.gr",
+    "password":  "YOUR_PASSWORD",
+    "flow_id":  "68af038088fc31c2c10a41e2",
+    "case_url":  "https://cepal.aiflows.app/flows/68af038088fc31c2c10a41e2/cases/new-submission",
+    "nav_texts":  [
+                      "ΗΛ.4548",
+                      "Όλες οι υποθέσεις",
+                      "RF Payments"
+                  ],
+    "publish_date_field":  "publish_date",
+    "empty_message_ms":  3000,
+    "sql":  {
+                "driver":  "SQL Server Native Client 11.0",
+                "server":  "YOUR_SQL_SERVER",
+                "database":  "YOUR_DATABASE",
+                "timeout":  30
+            },
+    "mqtt":  {
+                 "enabled":  true,
+                 "host":  "YOUR_MQTT_HOST",
+                 "port":  1883,
+                 "topic_total":  "CEPAL/site/total",
+                 "topic_uploaded":  "CEPAL/site/UPLOADED"
+             }
+}
